@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		596FC87C2B33D5FA00B63904 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596FC87B2B33D5FA00B63904 /* WalletView.swift */; };
+		598916822B3436DA00C889D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598916812B3436DA00C889D9 /* HomeView.swift */; };
 		59EEF8B12B30668900CD9977 /* personalutilitiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEF8B02B30668900CD9977 /* personalutilitiesApp.swift */; };
 		59EEF8B32B30668900CD9977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EEF8B22B30668900CD9977 /* ContentView.swift */; };
 		59EEF8B52B30668A00CD9977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59EEF8B42B30668A00CD9977 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		596FC87A2B33446400B63904 /* personalutilities.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = personalutilities.entitlements; sourceTree = "<group>"; };
+		596FC87B2B33D5FA00B63904 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		598916812B3436DA00C889D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		59EEF8AD2B30668900CD9977 /* personalutilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personalutilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59EEF8B02B30668900CD9977 /* personalutilitiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalutilitiesApp.swift; sourceTree = "<group>"; };
 		59EEF8B22B30668900CD9977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +56,11 @@
 		59EEF8AF2B30668900CD9977 /* personalutilities */ = {
 			isa = PBXGroup;
 			children = (
+				596FC87A2B33446400B63904 /* personalutilities.entitlements */,
 				59EEF8B02B30668900CD9977 /* personalutilitiesApp.swift */,
 				59EEF8B22B30668900CD9977 /* ContentView.swift */,
+				598916812B3436DA00C889D9 /* HomeView.swift */,
+				596FC87B2B33D5FA00B63904 /* WalletView.swift */,
 				59EEF8B42B30668A00CD9977 /* Assets.xcassets */,
 				59EEF8B62B30668A00CD9977 /* Preview Content */,
 			);
@@ -138,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59EEF8B32B30668900CD9977 /* ContentView.swift in Sources */,
+				598916822B3436DA00C889D9 /* HomeView.swift in Sources */,
 				59EEF8B12B30668900CD9977 /* personalutilitiesApp.swift in Sources */,
+				596FC87C2B33D5FA00B63904 /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = personalutilities/personalutilities.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"personalutilities/Preview Content\"";
@@ -298,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = personalutilities/personalutilities.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"personalutilities/Preview Content\"";

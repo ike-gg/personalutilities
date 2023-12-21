@@ -1,24 +1,20 @@
-//
-//  ContentView.swift
-//  personalutilities
-//
-//  Created by ike on 18/12/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+  var body: some View {
+    TabView {
+      HomeView()
+        .tabItem { 
+          Label("Home", systemImage: "house")
         }
-        .padding()
+      WalletView()
+        .tabItem {
+          Label("Passes", systemImage: "wallet.pass")
+        }
     }
+  }
 }
 
 #Preview {
-    ContentView()
+  ContentView()
 }
